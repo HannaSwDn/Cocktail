@@ -14,6 +14,7 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
 function openNavigation() {
     var navigation = document.getElementById('modal');
     navigation.style.display='block';
@@ -22,6 +23,14 @@ function openNavigation() {
 function closeNavigation() {
     var navigation = document.getElementById('modal');
     navigation.style.display='none';
-
 }
 
+function openMenu() {
+    var menu = document.getElementById('menu');
+    menu.style.display = 'block';
+}
+
+function closeMenu() {
+    var menu = document.getElementById('menu');
+    menu.style.display = 'none';
+}
