@@ -18,3 +18,6 @@ Feature: Admin can add items to menu
     And I click on "menu"
     And I click on "addItem"
     And I fill in "Title" with "Irish Coffee"
+    And I fill in "Price" with "$5"
+    And I fill in "Categorie" with "Drinks"
+    And I fill in "Description" with "We don't need a description really"
