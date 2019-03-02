@@ -14,3 +14,14 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+function openNavigation() {
+    var navigation = document.getElementById('modal');
+    navigation.style.display='block';
+}
+
+function closeNavigation() {
+    var navigation = document.getElementById('modal');
+    navigation.style.display='none';
+
+}
+
